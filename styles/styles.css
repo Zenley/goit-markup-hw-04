@@ -106,7 +106,7 @@ color: #404BBF;
     height: 600px;
     margin-right: auto;
     padding: 94px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/goit-markup-hw-03/svg/office.svg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/goit-markup-hw-04/images/office.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -163,6 +163,26 @@ color: #404BBF;
     padding: 50px;
 }
 
+.paragraph-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.paragraph-icon .paragraph-logo{
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-icon svg{
+    width: 64px;
+    height: 64px;
+}
 
 .container{
     width: 1200px;
@@ -242,13 +262,58 @@ color: #404BBF;
 }
 
 .social-media{
-    list-style: none;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-right: 37px;
+    margin-top: 8px;
 }
 
+.social-media .icon svg{
+    width: 16px;
+    height: 16px;
+}
+
+.social-media .icon{
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .icon:hover,
+.social-media .icon:focus{
+   background-color: #434455;
+}
+
+.section-four>h2{
+    text-align: center;
+    margin-top: 120px;
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.customers{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+}
+
+
+.customers .customers-logo{
+    width: 168px;
+    height: 88px;
+    border: 1px solid #2E2F42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .address {
     line-height: 1.5;
     color: #ffffff;
@@ -279,4 +344,36 @@ color: #404BBF;
     color: #ffffff;
     line-height: 1.31;
     font-size: 18px;
+}
+
+.footer-social h4{
+
+ display: flex;
+ flex-direction: row-reverse;
+ margin-right: 300px;
+ color: #ffffff;
+}
+
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+
+    gap: 24px;
+    margin-top: 8px;
+    margin-left: 250px;
+}
+
+.social-media-footer .icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.social-media-footer .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
