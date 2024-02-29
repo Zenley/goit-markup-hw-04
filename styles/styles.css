@@ -326,6 +326,19 @@ color: #404BBF;
     border: 1px solid #10A5F5;
 }
 
+.customers-logo svg{
+    color: #8e8f99;
+}
+
+.customers-logo svg :hover{
+    color: #10A5F5;
+}
+
+.customers-logo svg use{
+    width: 104px;
+    height: 56px;
+}
+
 .address {
     line-height: 1.5;
     color: #ffffff;
