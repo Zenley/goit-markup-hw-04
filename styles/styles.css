@@ -106,7 +106,7 @@ color: #404BBF;
     height: 600px;
     margin-right: auto;
     padding: 94px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/goit-markup-hw-04/images/office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/office.jpg");
     background-position: center;
     background-size: cover;
 }
